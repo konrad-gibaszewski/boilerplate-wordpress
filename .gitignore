@@ -1,2 +1,13 @@
 # Git | Ignore files specified below
 
+# Local Settings
+wp-config.php
+wp-content/uploads/*
+!wp-content/uploads/index.php
+!wp-content/uploads/.gitkeep
+
+# SVN crap
+.svn/
+
+# PHPStorm crap
+.idea/
